@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option csharp_namespace = "GrpcService2.Protos";
+package first;
+
+//定义的服务
+service ProFirst { 
+  // 方法
+  rpc SayHello (LxpRequest) returns (LxpReply); 
+  // 方法
+  rpc GetUserInfo(LxpRequest) returns(LxpReply); 
+}
+ //请求体
+message LxpRequest { 
+  string name = 1;
+  string  age = 4;
+}
+ //响应体
+message LxpReply { 
+  string message = 1;
+
+}

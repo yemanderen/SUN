@@ -83,6 +83,8 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "LearningFlask", "LearningFl
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task", "Task", "{08791FE8-D892-47FF-BDFC-B41A35B2BDBE}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "DjangoWebProject1", "DjangoWebProject1\DjangoWebProject1.pyproj", "{9E371415-E7DC-485D-87CB-CE366C1ECF10}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -187,6 +189,10 @@ Global
 		{493F375A-FA14-492D-BEBD-2BCF4473CB1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{493F375A-FA14-492D-BEBD-2BCF4473CB1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{493F375A-FA14-492D-BEBD-2BCF4473CB1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E371415-E7DC-485D-87CB-CE366C1ECF10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E371415-E7DC-485D-87CB-CE366C1ECF10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E371415-E7DC-485D-87CB-CE366C1ECF10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E371415-E7DC-485D-87CB-CE366C1ECF10}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -216,6 +222,7 @@ Global
 		{05A80C39-0676-4A80-8F5D-A17C7F87CC91} = {DBB62587-E228-4A3E-ABCD-8FC93E4DF31D}
 		{628DED68-0AD7-4EB1-990D-DA6E57512351} = {7E671353-A15A-46C8-9880-9FFC253357D8}
 		{493F375A-FA14-492D-BEBD-2BCF4473CB1E} = {7E671353-A15A-46C8-9880-9FFC253357D8}
+		{9E371415-E7DC-485D-87CB-CE366C1ECF10} = {7E671353-A15A-46C8-9880-9FFC253357D8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {245FE70E-CC14-4F4B-9BBB-53CC616C68E4}

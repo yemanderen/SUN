@@ -20,7 +20,6 @@ namespace S2Iwebdemo.Controllers
 
         public IActionResult Index()
         {
-            //test webhook
             return View();
         }
 

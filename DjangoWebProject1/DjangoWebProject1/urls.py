@@ -28,4 +28,6 @@ urlpatterns = [
          name='login'),
     path('logout/', LogoutView.as_view(next_page='/'), name='logout'),
     path('admin/', admin.site.urls),
+    path('search-form/', views.search_form),
+    path('search/', views.search),
 ]

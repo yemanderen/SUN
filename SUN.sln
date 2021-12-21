@@ -83,7 +83,7 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "LearningFlask", "LearningFl
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task", "Task", "{08791FE8-D892-47FF-BDFC-B41A35B2BDBE}"
 EndProject
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "DjangoWebProject1", "DjangoWebProject1\DjangoWebProject1.pyproj", "{9E371415-E7DC-485D-87CB-CE366C1ECF10}"
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "DjangoWeb", "DjangoWebProject1\DjangoWeb.pyproj", "{9E371415-E7DC-485D-87CB-CE366C1ECF10}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{15A78C8E-6474-4ED9-9979-D2E40ACC2265}"
 EndProject
@@ -93,7 +93,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OpenShift", "OpenShift", "{
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "S2Iwebdemo", "S2Iwebdemo\S2Iwebdemo.csproj", "{2327E522-C21B-4D5B-A4D1-83DFFBB162EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "githubsample001", "githubsample001\githubsample001.csproj", "{03E3F31D-4631-48AF-BAD2-50779F149BA8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "githubsample001", "githubsample001\githubsample001.csproj", "{03E3F31D-4631-48AF-BAD2-50779F149BA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyFunctionApp01", "MyFunctionApp01\MyFunctionApp01.csproj", "{D178ECD8-4FBC-4328-8F51-A3A1B7CC9454}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -215,6 +217,10 @@ Global
 		{03E3F31D-4631-48AF-BAD2-50779F149BA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03E3F31D-4631-48AF-BAD2-50779F149BA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{03E3F31D-4631-48AF-BAD2-50779F149BA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D178ECD8-4FBC-4328-8F51-A3A1B7CC9454}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D178ECD8-4FBC-4328-8F51-A3A1B7CC9454}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D178ECD8-4FBC-4328-8F51-A3A1B7CC9454}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D178ECD8-4FBC-4328-8F51-A3A1B7CC9454}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -248,6 +254,7 @@ Global
 		{1720BBDA-93C2-4BE4-8172-8EAF2C61C391} = {15A78C8E-6474-4ED9-9979-D2E40ACC2265}
 		{2327E522-C21B-4D5B-A4D1-83DFFBB162EF} = {BE6D4AC6-7CAD-4487-AA53-6649E12046DB}
 		{03E3F31D-4631-48AF-BAD2-50779F149BA8} = {BE6D4AC6-7CAD-4487-AA53-6649E12046DB}
+		{D178ECD8-4FBC-4328-8F51-A3A1B7CC9454} = {B6DC00C9-C624-4F52-93E1-9C9FE83E2C04}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {245FE70E-CC14-4F4B-9BBB-53CC616C68E4}

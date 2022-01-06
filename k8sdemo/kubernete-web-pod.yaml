@@ -1,0 +1,13 @@
+﻿ apiVersion: v1
+ kind: Pod 
+ metadata:
+   name: kubernete-web-pod2 
+   labels: 
+     app: kubernete-web-pod2
+ spec: 
+   containers: 
+     - name: k8sdemo2 
+       image: k8sdemo
+       imagePullPolicy: IfNotPresent 
+       ports:
+         - containerPort: 80 

@@ -1,0 +1,58 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+<p id="test-get"></p>
+<p id="test-post"></p>
+<p id="test-delete"></p>
+<p id="test-put"></p>
+@section Scripts{
+    <script>
+        $(function(){
+            $.ajax({
+                url:'http://localhost:5219/test1',
+                type:'GET'
+            }).done(function(data, textStatus, jqXHR){
+                $("#test-get").html("test get:"+data)
+            }).fail(function(jqXHR, textStatus, errorThrown){
+                $("#test-get").html("test get:"+textStatus)
+            });
+
+            $.ajax({
+                url:'http://localhost:5219/test1',
+                type:'POST'
+            }).done(function(data, textStatus, jqXHR){
+                $("#test-post").html("test post:"+data)
+            }).fail(function(jqXHR, textStatus, errorThrown){
+                $("#test-post").html("test post:"+textStatus)
+            });
+
+            $.ajax({
+                url:'http://localhost:5219/test1',
+                type:'DELETE'
+            }).done(function(data, textStatus, jqXHR){
+                $("#test-delete").html("test delete:"+data)
+            }).fail(function(jqXHR, textStatus, errorThrown){
+                $("#test-delete").html("test delete:"+textStatus)
+            });
+
+            $.ajax({
+                url:'http://localhost:5219/test1',
+                type:'PUT'
+            }).done(function(data, textStatus, jqXHR){
+                $("#test-put").html("test put:"+data)
+            }).fail(function(jqXHR, textStatus, errorThrown){
+                $("#test-put").html("test put:"+textStatus)
+            });
+        })
+
+
+    </script>
+
+}

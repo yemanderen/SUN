@@ -111,11 +111,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Daprfrontend", "Daprfronten
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cors", "Cors", "{1A8320C2-E344-4AA8-8650-81682998DA78}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniApi", "MiniApi\MiniApi.csproj", "{38545E94-5D68-488E-AE3B-FA1D2526C3C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiniApi", "MiniApi\MiniApi.csproj", "{38545E94-5D68-488E-AE3B-FA1D2526C3C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CorsTestWebDemo", "CorsTestWebDemo\CorsTestWebDemo.csproj", "{46641294-EB35-4F67-BA99-8C0134F4A84F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CorsTestWebDemo", "CorsTestWebDemo\CorsTestWebDemo.csproj", "{46641294-EB35-4F67-BA99-8C0134F4A84F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpFunctionApp", "HttpFunctionApp\HttpFunctionApp.csproj", "{A0E68086-C92E-4F56-A12F-1E53C981C75B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HttpFunctionApp", "HttpFunctionApp\HttpFunctionApp.csproj", "{A0E68086-C92E-4F56-A12F-1E53C981C75B}"
 EndProject
 Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "ExpressApp1", "ExpressApp1\ExpressApp1.njsproj", "{16C32009-E811-49D4-970F-F2EB44C3491B}"
 EndProject

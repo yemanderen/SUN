@@ -22,5 +22,6 @@ namespace S2Iwebdemo
                 {
                     webBuilder.UseStartup<Startup>();
                 });
+        
     }
 }

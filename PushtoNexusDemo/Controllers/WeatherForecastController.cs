@@ -34,6 +34,7 @@ namespace PushtoNexusDemo.Controllers
                 Summary = Summaries[rng.Next(Summaries.Length)]
             })
             .ToArray();
+
         }
     }
 }

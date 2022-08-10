@@ -21,6 +21,6 @@ namespace S2Iwebdemo
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();
-                });
+                });        
     }
 }
